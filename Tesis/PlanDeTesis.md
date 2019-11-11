@@ -152,7 +152,7 @@ debido a esta nueva estrategia es importante considerar como prioridad
 la seguridad de la información, que es uno de los activos valiosos que
 garantizan continuidad del negocio y sostenibilidad a la organización.
 
-Tabla 1: Crecimiento de población institucional.
+Tabla : Crecimiento de población institucional.
 
   Año    Cantidad de ingresos de usuarios por año.   Crecimiento del personal al año.
   ------ ------------------------------------------- ----------------------------------
@@ -164,7 +164,7 @@ Tabla 1: Crecimiento de población institucional.
 
 Fuente: Área de contabilidad Tatoo.
 
-Tabla 2: Crecimiento de Ventas por año
+Tabla : Crecimiento de Ventas por año
 
   Año    Porcentaje de incremento en ventas
   ------ ------------------------------------
@@ -208,6 +208,15 @@ CIS RAM proporciona un método para \"trazar una línea\" en la definición
 de riesgo aceptable de una organización, con riesgos por debajo de la
 línea que se adhieren a la atención debida y riesgos por encima de la
 línea que requieren tratamiento de riesgo.
+
+### [Formulación del problema]{.underline}
+
+Mediante la información recopilada y los procesos de auditoria
+realizados en el área tecnológica de Tatoo Adventure Gear se ha
+encontrado brechas en la seguridad de la información, esto puede afectar
+a los procesos de tecnología de la organización y posibles pérdidas de
+información, perdida de reputación de la empresa, perdidas económicas y
+afectación de productividad.
 
 Referencias
 
