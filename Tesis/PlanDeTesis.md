@@ -152,7 +152,7 @@ debido a esta nueva estrategia es importante considerar como prioridad
 la seguridad de la información, que es uno de los activos valiosos que
 garantizan continuidad del negocio y sostenibilidad a la organización.
 
-Tabla : Crecimiento de población institucional.
+Tabla 1: Crecimiento de población institucional.
 
   Año    Cantidad de ingresos de usuarios por año.   Crecimiento del personal al año.
   ------ ------------------------------------------- ----------------------------------
@@ -164,7 +164,7 @@ Tabla : Crecimiento de población institucional.
 
 Fuente: Área de contabilidad Tatoo.
 
-Tabla : Crecimiento de Ventas por año
+Tabla 2: Crecimiento de Ventas por año
 
   Año    Porcentaje de incremento en ventas
   ------ ------------------------------------
@@ -186,24 +186,23 @@ medida, estas políticas tiene la labor de evitar en lo posible daños, la
 perdida de reputación de la empresa, perdidas económicas y afectación de
 productividad.
 
-En contraste se necesita colocar un grupo de controles sin afectar la
-eficiencia, el grado de colaboración, utilidad, productividad o los
-fondos y recursos pertinentes, la alta directiva ha determinado que
-desea una solución de seguridad informática, pero sin que el tiempo que
-se dedique a ello retrase los lanzamientos de Innovación y desarrollo,
-tampoco que consuma los recursos asignados a las principales prioridades
-de innovación y que tampoco signifique incrementos en los costos, así
-que se va a planear usar una herramienta que se adapte a esta necesidad
-inicial.
-
 ### Control de pronostico 
 
-Es necesario proporcionar un método para evaluar el riesgo mediante el
-cálculo de la probabilidad de un impacto para la empresa, los clientes,
-los objetivos comerciales y las entidades externas (reguladores,
-proveedores, etc.). y que se mantenga en el marco de lo que vamos a
-denominar como riesgo razonable, el cual generara un plan de "seguridad
-razonable".
+Se necesita colocar un grupo de controles sin afectar la eficiencia, el
+grado de colaboración, utilidad, productividad o los fondos y recursos
+pertinentes, la alta directiva ha determinado que desea una solución de
+seguridad informática, pero sin que el tiempo que se dedique a ello
+retrase los lanzamientos de Innovación y desarrollo, tampoco que consuma
+los recursos asignados a las principales prioridades de innovación y que
+tampoco signifique incrementos en los costos, así que se va a planear
+usar una herramienta que se adapte a esta necesidad inicial.
+
+Además necesario proporcionar un método para evaluar el riesgo mediante
+el cálculo de la probabilidad de un impacto para la empresa, los
+clientes, los objetivos comerciales y las entidades externas
+(reguladores, proveedores, etc.). y que se mantenga en el marco de lo
+que vamos a denominar como riesgo razonable, el cual generara un plan de
+"seguridad razonable".
 
 CIS RAM proporciona un método para \"trazar una línea\" en la definición
 de riesgo aceptable de una organización, con riesgos por debajo de la
