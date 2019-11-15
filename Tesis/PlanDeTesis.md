@@ -51,21 +51,22 @@ de riesgos para la Empresa Tatoo Adventure Gear.
 
 Tatoo Adventure Gear ha crecido durante el último año incorporando a sus
 servicios dos nuevas innovaciones de negocios, uno es el mejoramiento de
-su sitio web representado por la optimización de su sistema y la segunda
-ampliación del catálogo de servicios con la incorporación de paquetes
-turísticos que se pueden contratar en un sitio web independiente y
-dedicado.
+su sitio web representado por la optimización de su sistema y la
+segunda, la ampliación del catálogo de servicios con la incorporación de
+paquetes turísticos que se pueden contratar en un sitio web
+independiente y dedicado.
 
-No se ha realizado una auditoria de sistemas y de seguridad en los
+No se ha realizado una auditoría de sistemas y de seguridad en los
 últimos 3 años, por lo que ahora se desea conocer el estado del área
 informática y cuáles son las oportunidades de desarrollo potenciales que
 por la falta de documentación están ocultos.
 
 El área de sistemas no cuenta con políticas de seguridad de la
-información, el área de desarrollo web, el área de desarrollo de ERP y
-Helpdesk cuentan con procedimientos, los cuales ahora no son
-suficientes, y las reglas de antivirus se pueden complementar con
-políticas de usuarios, esta es una oportunidad de mejora importante.
+información, sin embargo, el área de desarrollo web, el área de
+desarrollo de ERP y Helpdesk cuentan con procedimientos, los cuales
+ahora no son suficientes, y las reglas de antivirus se pueden
+complementar con políticas de usuarios, esta es una oportunidad de
+mejora importante.
 
 Es menester que al crecer las empresas busquen facilidades para conocer,
 catalogar y planificar el manejo de sus activos tecnológicos, el manejo
@@ -73,7 +74,7 @@ de contabilidad sobre los activos generalmente incluye información de la
 fecha de compra, importante para el manejo de devaluación, modelos y
 proveedores, relevante para las garantías y el código contable,
 importante para el momento de realizar un levantamiento contable, sin
-embargo, ninguno estos datos ayudan al saber si estos activos están
+embargo, ninguno de estos datos ayudan al saber si estos activos están
 aportando al cambio tecnológico, o si se están cumpliendo las normativas
 sobre el uso de licencias o si se está aprovechando al 100% los equipos
 que tiene la empresa.
@@ -152,7 +153,7 @@ debido a esta nueva estrategia es importante considerar como prioridad
 la seguridad de la información, que es uno de los activos valiosos que
 garantizan continuidad del negocio y sostenibilidad a la organización.
 
-Tabla 1: Crecimiento de población institucional.
+Tabla : Crecimiento de población institucional.
 
   Año    Cantidad de ingresos de usuarios por año.   Crecimiento del personal al año.
   ------ ------------------------------------------- ----------------------------------
@@ -164,7 +165,7 @@ Tabla 1: Crecimiento de población institucional.
 
 Fuente: Área de contabilidad Tatoo.
 
-Tabla 2: Crecimiento de Ventas por año
+Tabla : Crecimiento de Ventas por año
 
   Año    Porcentaje de incremento en ventas
   ------ ------------------------------------
