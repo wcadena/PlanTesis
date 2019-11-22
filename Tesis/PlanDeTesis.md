@@ -79,7 +79,7 @@ aportando al cambio tecnológico, o si se están cumpliendo las normativas
 sobre el uso de licencias o si se está aprovechando al 100% los equipos
 que tiene la empresa.
 
-Uno de las responsabilidades del equipo de Helpdesk se centran en la
+Una de las responsabilidades del equipo de Helpdesk se centran en la
 protección de los sistemas electrónicos, y la primordial garantía de
 seguridad en la que confían se centra en el antivirus, pero no se toma
 en cuenta la seguridad física al momento de crear una protección general
@@ -108,9 +108,9 @@ concepto que es el salario emocional, sin embargo, esto genera un nuevo
 reto al equipo de sistemas ya que deben determinar cuáles equipos deben
 tener acceso y cuales pertenecen a la organización y cuáles no.
 
-Se ha realizado una auditoria y la observación directa muestran que la
+Se ha realizado una auditoría y la observación directa muestran que la
 organización no cuenta con un manual de políticas de tecnologías,
-tampoco manual de procedimientos de tecnología y ni planes de
+tampoco manual de procedimientos de tecnología ni planes de
 contingencia, y existen brechas en la seguridad tales como:
 
 -   La organización no cuenta con un sistema de Directorio Activo, que
@@ -128,8 +128,8 @@ contingencia, y existen brechas en la seguridad tales como:
 -   Las credenciales de las cuentas de correos electrónicos de los
     usuarios son conocidas por los administradores de tecnología.
 
--   No existe puerta metálica ni con panel biométrico en el acceso al
-    centro de cómputo.
+-   No existe puerta metálica ni panel biométrico en el acceso al centro
+    de cómputo.
 
 -   Se evidencia que existe una deficiencia con el control de acceso a
     periféricos como USB, esto permitiría la infección del equipo por
@@ -183,20 +183,21 @@ los equipos y software también han aumentado, causando el cambio de la
 infraestructura incluso de ubicación de las oficinas, esto naturalmente
 ha elevado los requerimientos de seguridad en el área de Helpdesk,
 siendo imprescindible la implementación de políticas de seguridad a la
-medida, estas políticas tiene la labor de evitar en lo posible daños, la
-perdida de reputación de la empresa, perdidas económicas y afectación de
-productividad.
+medida, estas políticas tienen como objetivo evitar en lo posible daños,
+la pérdida de reputación de la empresa, pérdidas económicas y afectación
+de productividad.
 
 ### Control de pronostico 
 
-Se necesita colocar un grupo de controles sin afectar la eficiencia, el
-grado de colaboración, utilidad, productividad o los fondos y recursos
-pertinentes, la alta directiva ha determinado que desea una solución de
-seguridad informática, pero sin que el tiempo que se dedique a ello
-retrase los lanzamientos de Innovación y desarrollo, tampoco que consuma
-los recursos asignados a las principales prioridades de innovación y que
-tampoco signifique incrementos en los costos, así que se va a planear
-usar una herramienta que se adapte a esta necesidad inicial.
+Se necesita colocar un grupo de controles sin afectar la eficiencia o el
+grado de colaboración, mejorando la utilidad y productividad optimizando
+los fondos y recursos pertinentes, la alta directiva ha determinado que
+desea una solución de seguridad informática, pero sin que el tiempo que
+se dedique a ello retrase los lanzamientos de Innovación y desarrollo,
+tampoco que consuma los recursos asignados a las principales prioridades
+de innovación y que tampoco signifique incrementos en los costos, así
+que se va a planear usar una herramienta que se adapte a esta necesidad
+inicial.
 
 Además necesario proporcionar un método para evaluar el riesgo mediante
 el cálculo de la probabilidad de un impacto para la empresa, los
@@ -212,11 +213,11 @@ línea que requieren tratamiento de riesgo.
 
 ### Formulación del problema
 
-Mediante la información recopilada y los procesos de auditoria
+Mediante la información recopilada y los procesos de auditoría
 realizados en el área tecnológica de Tatoo Adventure Gear se ha
 encontrado brechas en la seguridad de la información, esto puede afectar
 a los procesos de tecnología de la organización y posibles pérdidas de
-información, perdida de reputación de la empresa, perdidas económicas y
+información, pérdida de reputación de la empresa, pérdidas económicas y
 afectación de productividad.
 
 2.  Objetivos
@@ -245,8 +246,8 @@ mejorar la gestión del área de tecnología de la información.
 
 -   Determinar los indicadores que se van a evaluar dentro de la
     aplicación de los controles de seguridad por medio del análisis
-    realizado a la empresa para satisfacer las necesidades de la empresa
-    Tatoo Adventure Gear.
+    realizado a la empresa para satisfacer las necesidades de Tatoo
+    Adventure Gear.
 
 -   Aplicar los inventarios, análisis de vulnerabilidades, políticas,
     configuraciones y monitoreo a la empresa Tatoo Adventure Gear de las
@@ -257,12 +258,13 @@ mejorar la gestión del área de tecnología de la información.
     3.  Justificación
         -------------
 
-La información es el nuevo activo más importante para la empresa, y el
-primer paso para tener seguro a la inversión que se ha realizado es
-saber qué es lo que se debe asegurar, esta acción al parecer sencilla
-llevara a cabo la posibilidad de determinar cuáles son las prioridades
-entre lo q se debe dar mayor o menor prioridad al asegurar la
-información.
+La información es el nuevo activo más importante para la empresa, ahora,
+el primer paso para tener segura la inversión que se ha realizado es
+saber qué es lo que se debe asegurar, facilitará enumerar las
+prioridades entre lo que se debe dar mayor o menor ponderación al
+asegurar la información, se debe tener en cuenta que esta generación de
+prioridades debe estar conectada con los intereses de la operación y del
+negocio.
 
 En la actualidad la empresa Tatoo Adventure Gear cuenta con 40 empleados
 (Tabla 1: Crecimiento de población institucional.) los cuales cuentan a
@@ -270,6 +272,32 @@ su haber al menos una computadora como custodios, pero según datos
 capturados en la encuesta al área de Sistemas (Anexo 1) ninguno cuenta
 con una política de uso, o una acta de entrega de activos o un acta de
 responsabilidad ante su manipulación.
+
+De la información recolectada se puede observar que Tatoo Adventure Gear
+posee riesgos asociados a la seguridad de la información, esto debido a
+la falta de políticas y procedimientos, también se ha notado que los
+activos no se encuentran asignados a un responsable y que los usuarios
+pueden ejecutar aplicaciones como administradores poniendo su equipo e
+información en riesgo.
+
+Estado del arte
+---------------
+
+Después de revisar el informe de La Favorita que se divulgo en abril del
+2019, se puede afirmar que la seguridad de la información no es uno de
+los ejes en los cuales la corporación está centrada en este momento, sin
+embargo, La mejora continua es una de los ejes en los que se desea
+trabajar y fortalecer.
+
+![Resultado de imagen para cadena de valor
+retail](media/image2.png){width="4.959722222222222in" height="2.525in"}
+
+Figure : Estructura de la cadenas de valor de la empresa modelo de
+Retail, como se puede ver el area de tecnologia es parte de toda la
+cadenay por lo tanto aporta en casi tidas las areas de la empresa.
+
+Todas las partes de la empresa se pueden abstraer como tabiques de la
+ventaja competitiva,
 
 Referencias
 
@@ -335,7 +363,7 @@ estilo APA, vea el *Manual de estilo de la APA, 6.ª edición*.
 2.  Anexos
     ======
 
-    4.  Encuesta del estado del área de sistemas aplicada al Helpdesk 
+    5.  Encuesta del estado del área de sistemas aplicada al Helpdesk 
         --------------------------------------------------------------
 
   *Código*               *Pregunta*                                                                                                                                                                                                                                                                                                                                                         *Aplica*   *Si / NO*
