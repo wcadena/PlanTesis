@@ -1,2 +1,2 @@
 @echo off
-pandoc -s PlanDeTesis.docx -t markdown -o PlanDeTesis.md
+"C:\Program Files\Pandoc\pandoc.exe" -s PlanDeTesis.docx -t markdown -o PlanDeTesis.md

@@ -153,7 +153,7 @@ debido a esta nueva estrategia es importante considerar como prioridad
 la seguridad de la información, que es uno de los activos valiosos que
 garantizan continuidad del negocio y sostenibilidad a la organización.
 
-Tabla : Crecimiento de población institucional.
+Tabla 1: Crecimiento de población institucional.
 
   Año    Cantidad de ingresos de usuarios por año.   Crecimiento del personal al año.
   ------ ------------------------------------------- ----------------------------------
@@ -165,7 +165,7 @@ Tabla : Crecimiento de población institucional.
 
 Fuente: Área de contabilidad Tatoo.
 
-Tabla : Crecimiento de Ventas por año
+Tabla 2: Crecimiento de Ventas por año
 
   Año    Porcentaje de incremento en ventas
   ------ ------------------------------------
@@ -280,24 +280,190 @@ activos no se encuentran asignados a un responsable y que los usuarios
 pueden ejecutar aplicaciones como administradores poniendo su equipo e
 información en riesgo.
 
-Estado del arte
----------------
+Marco teórico
+-------------
 
 Después de revisar el informe de La Favorita que se divulgo en abril del
 2019, se puede afirmar que la seguridad de la información no es uno de
 los ejes en los cuales la corporación está centrada en este momento, sin
-embargo, La mejora continua es una de los ejes en los que se desea
-trabajar y fortalecer.
+embargo, la mejora continua es una de las prioridades en los que se
+desea trabajar y fortalecer.
 
 ![Resultado de imagen para cadena de valor
 retail](media/image2.png){width="4.959722222222222in" height="2.525in"}
 
-Figure : Estructura de la cadenas de valor de la empresa modelo de
+Figure 1: Estructura de la cadenas de valor de la empresa modelo de
 Retail, como se puede ver el area de tecnologia es parte de toda la
 cadenay por lo tanto aporta en casi tidas las areas de la empresa.
 
 Todas las partes de la empresa se pueden abstraer como tabiques de la
-ventaja competitiva,
+ventaja competitiva, la eficiencia y la calidad son las actividades
+fundamentales, buscan las mejores metodologías aplicables a sus
+actividades comerciales y productivas, después de analizar las
+cantidades de usuarios con equipos tecnológicos, podemos afirmar que más
+del 80% de usuarios tiene acceso a uno.
+
+Actualmente la ciberseguridad ha generado mucha expectativa en las
+empresas, debido a al aumento de inversiones en activos informáticos,
+por lo que poco a poco se ha mejorado la perspectiva de la alta gerencia
+a los pilares de la seguridad informática, confiabilidad, integridad y
+disponibilidad, es por eso que Tatoo Adventure Gear a considerado
+oportunamente la implementación de controles a la medida para garantizar
+la continuidad del negocio.
+
+Para organizar nuestro esfuerzo, se requiere un Framework. Un Framework
+se presta a muchas metáforas fácilmente relacionadas. Necesitamos un
+Framework para nuestro programa de seguridad de la información, ahora
+vamos a segmentar nuestro programa de seguridad de la información en
+unidades lógicas y tangibles que llamaremos dominios. Los dominios de
+seguridad están asociados con agrupaciones designadas de actividades,
+sistemas o recursos relacionados.
+
+Una serie de organizaciones públicas y privadas, incluida la
+Organización Internacional de Normalización (ISO) y el Instituto
+Nacional de Normas, Estándares y Tecnología (NIST), han invertido mucho
+tiempo y energía para desarrollar normas que permitan marcos de
+ciberseguridad proactivos. Vamos a analizar los estándares desarrollados
+por ambas organizaciones. Antes de comenzar a construir nuestro programa
+y políticas de seguridad de la información, primero debemos identificar
+qué estamos tratando de lograr y por qué. Comencemos por lo tanto
+discutiendo los tres principios básicos de la seguridad de la
+información. Luego observamos la creciente amenaza global, que incluye
+quién está detrás de los ataques, su motivación y cómo atacan. Aplicamos
+este conocimiento para construir el marco de nuestro programa de
+seguridad de la información y cómo redactamos nuestras políticas.
+
+### Confidencialidad, integridad y disponibilidad 
+
+Los elementos de confidencialidad, integridad y disponibilidad a menudo
+se describen como el modelo de la CIA (Stalling, 2017). Es fácil
+adivinar que lo primero que se le ocurrió cuando leyó esas tres cartas
+fue la Agencia Central de Inteligencia de los Estados Unidos. En el
+mundo de la ciberseguridad, estas tres letras representan algo que nos
+esforzamos por lograr y proteger. La confidencialidad, integridad y
+disponibilidad (Confidentiality, Integrity, Availability - CIA) son los
+atributos unificadores de un programa de seguridad de la información. En
+conjunto, denominado tríada de la CIA o modelo de seguridad de la CIA,
+cada atributo representa un objetivo fundamental de la seguridad de la
+información.
+
+Ahora, después de leer esta pequeña introducción se nos viene a la
+cabeza una pregunta: ¿Quién es responsable de la CIA? Es responsabilidad
+de los propietarios de la información garantizar la confidencialidad,
+integridad y disponibilidad. ¿Qué significa ser propietario de
+información? Según FISMA, el propietario de la información es un
+funcionario con autoridad legal u operativa para la información
+específica y la responsabilidad de establecer los criterios para su
+creación, recopilación, procesamiento, difusión o eliminación, que
+pueden extenderse a sistemas interconectados o grupos de sistemas
+interconectados (Ross, Swanson , Stoneburner, Katzke , & Johnson, 2004).
+Más simplemente, el propietario de la información tiene la autoridad y
+la responsabilidad de garantizar que la información esté protegida,
+desde la creación hasta la destrucción.
+
+Los departamentos de tecnología de la información (TI) o sistemas de
+información (SI) son ampliamente percibidos como propietarios de los
+sistemas de información e información. Quizás esto se deba a que la
+palabra \"información\" es parte del título del departamento. Para el
+registro, con la excepción de la información específica de su
+departamento, los departamentos de TI e IS no deben considerarse
+propietarios de la información. Más bien, son las personas encargadas de
+mantener los sistemas que almacenan, procesan y transmiten la
+información. Se les conoce como custodios de la información: los
+responsables de implementar, mantener y monitorear las salvaguardas y
+los sistemas. Son más conocidos como administradores de sistemas, web
+masters e ingenieros de redes (Terán, 2014).
+
+### Marco de seguridad cibernética del NIST 
+
+Antes de discutir el Marco de seguridad cibernética del NIST en detalle,
+definamos un marco de seguridad. El marco de seguridad es un término
+colectivo dado a la orientación sobre temas relacionados con la
+seguridad de los sistemas de información, principalmente en relación con
+la planificación, implementación, gestión y auditoría de prácticas
+generales de seguridad de la información. Uno de los marcos más
+completos para la ciberseguridad es el NIST Cybersecurity Framework,. La
+guía del NIST sobre la confiabilidad de los sistemas cubre varias áreas
+técnicas. Estas áreas incluyen orientación general sobre ciberseguridad,
+computación en la nube, big data y sistemas físicos. Estos esfuerzos y
+orientación se centran en los objetivos de seguridad de
+confidencialidad, integridad y disponibilidad (CIA).
+
+### ¿Cuál es la función del NIST? 
+
+Fundada en 1901, NIST es una agencia federal no reguladora dentro de la
+Administración de Tecnología del Departamento de Comercio de EE. UU. La
+misión de NIST es desarrollar y promover medidas, estándares y
+tecnología para mejorar la productividad, facilitar el comercio y
+mejorar la calidad de vida. La División de Seguridad Informática (CSD)
+es una de las siete divisiones dentro del Laboratorio de Tecnología de
+la Información del NIST. La misión del CSD de NIST es mejorar la
+seguridad de los sistemas de información de la siguiente manera:
+
+-   Al crear conciencia sobre los riesgos de TI, las vulnerabilidades y
+    los requisitos de protección, particularmente para las tecnologías
+    nuevas y emergentes.
+
+-   Investigando, estudiando y asesorando a las agencias sobre las
+    vulnerabilidades de TI y diseñando técnicas para la seguridad y la
+    privacidad rentables de los sistemas federales sensibles.
+
+-   Desarrollando estándares, métricas, pruebas y programas de
+    validación
+
+-   para promover, medir y validar la seguridad en sistemas y servicios,
+
+-   educar a los consumidores y establecer requisitos mínimos de
+    seguridad para los sistemas federales.
+
+-   Desarrollando una guía para aumentar la planificación,
+    implementación, administración y operación de TI segura.
+
+La Ley de Gobierno Electrónico de 2002 (Congress, 2002) asignó al NIST
+la misión de desarrollar un Marco de Garantía de la Información (normas
+y directrices) diseñado para sistemas de información federales que no
+están designados como sistemas de seguridad nacional de Estados Unidos
+de Norteamerica. El Marco de Garantía de Información del NIST incluye
+los Estándares Federales de Procesamiento de Información (FIPS) y
+Publicaciones Especiales (SP). Aunque desarrollado para uso
+gubernamental, el marco es aplicable al sector privado y aborda los
+aspectos administrativos, operativos y técnicos de la protección de la
+CIA de la información y los sistemas de información.
+
+El NIST define la seguridad de la información como la protección de la
+información y los sistemas de información contra el acceso, uso,
+divulgación, interrupción, modificación o destrucción no autorizados
+para proporcionar CIA.
+
+Actualmente, hay más de 500 documentos relacionados con la seguridad de
+la información del NIST. Este número incluye FIPS, la serie SP 800,
+información, boletines del Laboratorio de Tecnología de la Información
+(ITL) e informes interagenciales NIST (NIST IR):
+
+-   Normas federales de procesamiento de información (FIPS): esta es la
+    serie de publicaciones oficiales de normas y directrices.
+
+-   Serie 800 de Publicación Especial (SP): Esta serie informa sobre la
+    investigación, las directrices y los esfuerzos de divulgación de ITL
+    en la seguridad del sistema de información y sus actividades de
+    colaboración con la industria, el gobierno y las organizaciones
+    académicas (National Institute of Standards and Technology \| NIST,
+    2019).
+
+-   Publicación especial (SP) de la serie 1800: esta serie se centra en
+    las prácticas y pautas de seguridad cibernética (National Institute
+    of Standards and Technology \| NIST, 2019).
+
+-   Informes internos o interinstitucionales del NIST (NISTIR): estos
+    informes se centran en los resultados de la investigación, incluida
+    la información de antecedentes para FIPS y SP.
+
+-   Boletines de ITL: cada boletín presenta una discusión en profundidad
+    de un solo tema de gran interés para la comunidad de sistemas de
+    información. Los boletines se emiten según sea necesario. Desde los
+    controles de acceso hasta la seguridad inalámbrica, las
+    publicaciones del NIST son realmente un tesoro de valiosa y práctica
+    guía.
 
 Referencias
 
