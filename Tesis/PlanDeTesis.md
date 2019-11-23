@@ -153,7 +153,7 @@ debido a esta nueva estrategia es importante considerar como prioridad
 la seguridad de la información, que es uno de los activos valiosos que
 garantizan continuidad del negocio y sostenibilidad a la organización.
 
-Tabla 1: Crecimiento de población institucional.
+Tabla : Crecimiento de población institucional.
 
   Año    Cantidad de ingresos de usuarios por año.   Crecimiento del personal al año.
   ------ ------------------------------------------- ----------------------------------
@@ -165,7 +165,7 @@ Tabla 1: Crecimiento de población institucional.
 
 Fuente: Área de contabilidad Tatoo.
 
-Tabla 2: Crecimiento de Ventas por año
+Tabla : Crecimiento de Ventas por año
 
   Año    Porcentaje de incremento en ventas
   ------ ------------------------------------
@@ -292,7 +292,7 @@ desea trabajar y fortalecer.
 ![Resultado de imagen para cadena de valor
 retail](media/image2.png){width="4.959722222222222in" height="2.525in"}
 
-Figure 1: Estructura de la cadenas de valor de la empresa modelo de
+Figure : Estructura de la cadenas de valor de la empresa modelo de
 Retail, como se puede ver el area de tecnologia es parte de toda la
 cadenay por lo tanto aporta en casi tidas las areas de la empresa.
 
@@ -438,7 +438,7 @@ para proporcionar CIA.
 Actualmente, hay más de 500 documentos relacionados con la seguridad de
 la información del NIST. Este número incluye FIPS, la serie SP 800,
 información, boletines del Laboratorio de Tecnología de la Información
-(ITL) e informes interagenciales NIST (NIST IR):
+(ITL) e informes inter agencias NIST (NIST IR):
 
 -   Normas federales de procesamiento de información (FIPS): esta es la
     serie de publicaciones oficiales de normas y directrices.
@@ -464,6 +464,64 @@ información, boletines del Laboratorio de Tecnología de la Información
     controles de acceso hasta la seguridad inalámbrica, las
     publicaciones del NIST son realmente un tesoro de valiosa y práctica
     guía.
+
+    10. ### La ISO y su sistema de gobierno 
+
+ISO es una red de institutos de normas nacionales de más de 164 países.
+Cada país miembro tiene permitido un delegado, y una Secretaría Central
+en Ginebra, Suiza, coordina el sistema. En 1946, delegados de 25 países
+se reunieron en Londres y decidieron crear una nueva organización
+internacional, cuyo objetivo sería \"facilitar la coordinación
+internacional y la unificación de las normas industriales\". La nueva
+organización, ISO, comenzó oficialmente a operar el 23 de febrero de
+1947. ISO es una organización no gubernamental. A diferencia de las
+Naciones Unidas, sus miembros no son delegaciones de gobiernos
+nacionales. Sin embargo, ISO ocupa una posición especial entre los
+sectores público y privado. Esto se debe a que, por un lado, muchos de
+sus institutos miembros son parte de la estructura gubernamental de sus
+países, o están obligados por su gobierno (International Organization
+for Standardization, 2019).
+
+Por otro lado, otros miembros tienen sus raíces únicamente en el sector
+privado, ya que fueron creados por asociaciones nacionales de
+asociaciones industriales. ISO ha desarrollado más de 13,000 estándares
+internacionales en una variedad de temas, que van desde códigos de país
+hasta seguridad de pasajeros.
+
+La serie ISO / IEC 27000 comprende estándares de seguridad de la
+información publicados conjuntamente por ISO y la Comisión
+Electrotécnica Internacional (IEC). Los primeros seis documentos de la
+serie ISO / IEC 27000 proporcionan recomendaciones para \"establecer,
+implementar, operar, monitorear, revisar, mantener y mejorar un Sistema
+de Gestión de Seguridad de la Información\". En total, hay 22 documentos
+en la serie, y varios más Todavía están en desarrollo.
+
+-   ISO 27001 es la especificación para un Sistema de gestión de
+    seguridad de la información (SGSI). • ISO 27002 describe el Código
+    de prácticas para la gestión de la seguridad de la información.
+
+-   ISO 27003 proporciona una guía de implementación detallada. • ISO
+    27004 describe cómo una organización puede monitorear y medir la
+    seguridad utilizando métricas.
+
+-   ISO 27005 define el enfoque de gestión de riesgos de alto nivel
+    recomendado por ISO.
+
+-   ISO 27006 describe los requisitos para las organizaciones que
+    medirán el cumplimiento de ISO 27000 para la certificación.
+
+El marco es aplicable a organizaciones públicas y privadas de todos los
+tamaños. Según el sitio web de ISO, "el estándar ISO ofrece
+recomendaciones para la gestión de la seguridad de la información para
+uso de quienes son responsables de iniciar, implementar o mantener la
+seguridad en su organización. Su objetivo es proporcionar una base común
+para desarrollar estándares de seguridad organizacionales y prácticas
+efectivas de administración de seguridad y proporcionar confianza en los
+tratos entre organizaciones".
+
+### Los controles del CIS 
+
+Conocidos como (CIS CONTROLS)
 
 Referencias
 
