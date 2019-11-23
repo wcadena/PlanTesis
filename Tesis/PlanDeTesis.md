@@ -3,8 +3,7 @@ height="1.3541666666666667in"}\
 **FACULTAD DE ARQUITECTURA E INGENIERIA\
 Plan de Trabajo de investigación titulado:**
 
-Implementación de un procedimiento de diagnostico continuo y mitigacion
-de riesgos para la Empresa Tatoo Adventure Gear.
+Implementación de controles CIS en la Empresa Tatoo Adventure Gear.
 
 **Realizado por:**
 
@@ -38,8 +37,7 @@ la cinta, en la galería de estilos.\]
 
 *Palabras clave*: \[Haga clic aquí para agregar palabras clave.\]
 
-Implementación de un procedimiento de diagnostico continuo y mitigacion
-de riesgos para la Empresa Tatoo Adventure Gear.
+Implementación de controles CIS en la Empresa Tatoo Adventure Gear.
 
 1.  El Problema de investigación 
     =============================
@@ -226,17 +224,17 @@ afectación de productividad.
     5.  ### Objetivo general
 
 Implementar controles de ciberseguridad en la empresa Tatoo Adventure
-Gear en las oficinas de Ecuador por medio de la aplicación de los seis
-primeros controles fundamentales del CENTER FOR INTERNET SECURITY para
-mejorar la gestión del área de tecnología de la información.
+Gear en las oficinas de Ecuador mediante la aplicación de las seis
+primeras acciones fundamentales sugeridas por el CENTER FOR INTERNET
+SECURITY para la \[conservación\] de confidencialidad, integridad y
+disponibilidad de la informacion.
 
 ### Objetivos específicos 
 
--   Identificar la situación actual del estado de inventario tecnológico
-    e informático de la empresa Tatoo Adventure Gear en las oficinas de
-    Ecuador, mediante la aplicación de una matriz de riesgos el cual
-    permitirá el análisis de las vulnerabilidades y amenazas que está
-    expuesta.
+-   Identificar la situación actual de la infraestructura tecnológica e
+    informática de la empresa Tatoo Adventure Gear en la sede de
+    Ecuador, mediante la aplicación de una matriz de riesgos que permita
+    el análisis de las vulnerabilidades y amenazas que está expuesta.
 
 -   Analizar el nivel de seguridad que se debe aplicar a la empresa
     Tatoo Adventure Gear en las oficinas de Ecuador mediante la
@@ -244,19 +242,18 @@ mejorar la gestión del área de tecnología de la información.
     del grado de personalización que se va a aplicar a los controles y
     políticas de ciberseguridad.
 
--   Determinar los indicadores que se van a evaluar dentro de la
-    aplicación de los controles de seguridad por medio del análisis
-    realizado a la empresa para satisfacer las necesidades de Tatoo
-    Adventure Gear.
+-   Determinar los controles de seguridad que se aplicaran a Tatoo
+    Adventure Gear sede Ecuador mediante el análisis de los indicadores
+    de la CIS-RAM que permitan la mitigación de las vulnerabilidades
+    encontradas {Limitar el análisis}.
 
--   Aplicar los inventarios, análisis de vulnerabilidades, políticas,
-    configuraciones y monitoreo a la empresa Tatoo Adventure Gear de las
-    oficinas en Ecuador para mitigar los riesgos asociados con las
-    vulnerabilidades y amenazas de seguridad de la información
+-   Aplicar los controles seleccionados de la CIS en la empresa Tatoo
+    Adventure Gear de las cede Ecuador para atenuar los riesgos
+    asociados con las amenazas de seguridad de la información
     existentes.
 
-    3.  Justificación
-        -------------
+    3.  Justificaciones {técnica metodológica }
+        ---------------------------------------
 
 La información es el nuevo activo más importante para la empresa, ahora,
 el primer paso para tener segura la inversión que se ha realizado es
@@ -318,6 +315,8 @@ vamos a segmentar nuestro programa de seguridad de la información en
 unidades lógicas y tangibles que llamaremos dominios. Los dominios de
 seguridad están asociados con agrupaciones designadas de actividades,
 sistemas o recursos relacionados.
+
+### Marcos y standares de referencia de seguridad 
 
 Una serie de organizaciones públicas y privadas, incluida la
 Organización Internacional de Normalización (ISO) y el Instituto
@@ -465,7 +464,7 @@ información, boletines del Laboratorio de Tecnología de la Información
     publicaciones del NIST son realmente un tesoro de valiosa y práctica
     guía.
 
-    10. ### La ISO y su sistema de gobierno 
+    11. ### La ISO y su sistema de gobierno 
 
 ISO es una red de institutos de normas nacionales de más de 164 países.
 Cada país miembro tiene permitido un delegado, y una Secretaría Central
@@ -521,7 +520,13 @@ tratos entre organizaciones".
 
 ### Los controles del CIS 
 
-Conocidos como (CIS CONTROLS)
+Conocidos como (CIS CONTROLS) es un conjunto de mejores prácticas de
+defensa para mitigar los ataques más comunes contra sistemas y redes,
+estos controles son desarrollados por un grupo de expertos en TI que
+aplican su experiencia en ciberseguridad para crear estas mejores
+prácticas de seguridad que es aceptada globalmente, estos expertos
+provienen de varios sectores que incluyen ventas al por menor,
+fabricación, salud, educación, gobierno, defensa y otros.
 
 Referencias
 
