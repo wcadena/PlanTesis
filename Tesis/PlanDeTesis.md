@@ -226,8 +226,8 @@ afectación de productividad.
 Implementar controles de ciberseguridad en la empresa Tatoo Adventure
 Gear en las oficinas de Ecuador mediante la aplicación de las seis
 primeras acciones fundamentales sugeridas por el CENTER FOR INTERNET
-SECURITY para la \[conservación\] de confidencialidad, integridad y
-disponibilidad de la informacion.
+SECURITY para resguardar y proteger la confidencialidad, integridad y
+disponibilidad de la información.
 
 ### Objetivos específicos 
 
