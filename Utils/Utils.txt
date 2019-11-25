@@ -14,3 +14,42 @@ https://www.researchgate.net/profile/Segun_Adeshina/publication/335920947_IT_RIS
 https://www.researchgate.net/profile/Segun_Adeshina/publication/335920947_IT_RISK_MANAGEMENT_for_SMEs/links/5d83a587299bf1996f792f66/IT-RISK-MANAGEMENT-for-SMEs.pdf
 libro q se puede ser interesante
 https://www.sciencedirect.com/book/9780128038437/computer-and-information-security-handbook#book-description
+
+*************************como implementar 
+
+https://www.cisecurity.org/wp-content/uploads/2017/09/CIS-Controls-Guide-for-SMEs.pdf
+
+
+***********************Los controles de seguridad críticos de la CEI con matrices de comparqacion entre metodologias y marcos
+
+https://www.auditscripts.com/free-resources/critical-security-controls/
+
+rapid 7 y cis controles
+
+https://www.rapid7.com/solutions/compliance/critical-controls/
+https://www.rapid7.com/globalassets/_pdfs/whitepaperguide/rapid7-solution-guide-a-definitive-guide-to-understanding-and-meeting-the-cis-critical-security-controls.pdf
+
+division de cis controls
+https://www.cisecurity.org/controls/cis-controls-list/
+
+segun garner se pedira informacion de ciberseguridad a las empresas
+https://go.snowsoftware.com/RiskMonitor-Whitepaper-English.html?utm_source=Google_Search&utm_medium=Paid_Online_Media&sf_cmpid=2019-Riskmonitorlaunch-Whitepaper-English&gclid=CjwKCAiA8ejuBRAaEiwAn-iJ3gJLhwzddvTfCI0M8A4rME43zapWp_UX_mAwPDfDvhxjFelF4UqvlBoCMGEQAvD_BwE
+
+revista
+https://www.cyberdefensemagazine.com/
+
+como buscar
+https://www.google.com/search?q=why+cis+controls&rlz=1C1GCEA_enEC876EC876&oq=why+cis+controls&aqs=chrome..69i57j0.11060j0j7&sourceid=chrome&ie=UTF-8
+
+como aplicar controles de ciberseguridad
+
+https://www.techrepublic.com/article/how-to-choose-the-right-cybersecurity-framework/
+
+grafico de marcos de seguridad
+
+https://www.complianceforge.com/faq/nist-800-53-vs-iso-27002.html
+
+hitachi comparacion
+https://www.hitachi-systems-security.com/blog/nist-cissans-20-iso-27001-simplifying-security-control-assessments/
+******************************
+pasos a seguir para implementar el marco de seguridad
