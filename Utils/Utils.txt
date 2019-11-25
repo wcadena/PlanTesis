@@ -53,3 +53,10 @@ hitachi comparacion
 https://www.hitachi-systems-security.com/blog/nist-cissans-20-iso-27001-simplifying-security-control-assessments/
 ******************************
 pasos a seguir para implementar el marco de seguridad
+
+
+
+
+
+*comparacion de pasos a seguir segun nist vs otros marcos
+https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf
