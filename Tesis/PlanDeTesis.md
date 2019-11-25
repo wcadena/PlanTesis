@@ -158,7 +158,7 @@ debido a esta nueva estrategia es importante considerar como prioridad
 la seguridad de la información, que es uno de los activos valiosos que
 garantizan continuidad del negocio y sostenibilidad a la organización.
 
-Tabla : Crecimiento de población institucional.
+Tabla 1: Crecimiento de población institucional.
 
   Año    Cantidad de ingresos de usuarios por año.   Crecimiento del personal al año.
   ------ ------------------------------------------- ----------------------------------
@@ -170,7 +170,7 @@ Tabla : Crecimiento de población institucional.
 
 Fuente: Área de contabilidad Tatoo.
 
-Tabla : Crecimiento de Ventas por año
+Tabla 2: Crecimiento de Ventas por año
 
   Año    Porcentaje de incremento en ventas
   ------ ------------------------------------
@@ -324,8 +324,10 @@ las mejores prácticas de seguridad cibernética de Controles de CIS y CIS
 RAM proporciona instrucciones, ejemplos, plantillas y ejercicios para
 realizar una evaluación de riesgos cibernéticos
 
-Marco teórico
--------------
+4.  Marco teórico
+    -------------
+
+    9.  ### La empresa
 
 Después de revisar el informe de La Favorita que se divulgo en abril del
 2019, se puede afirmar que la seguridad de la información no es uno de
@@ -336,7 +338,7 @@ desea trabajar y fortalecer.
 ![Resultado de imagen para cadena de valor
 retail](media/image2.png){width="4.959722222222222in" height="2.525in"}
 
-Figure : Estructura de la cadenas de valor de la empresa modelo de
+Figure 1: Estructura de la cadenas de valor de la empresa modelo de
 Retail, como se puede ver el area de tecnologia es parte de toda la
 cadenay por lo tanto aporta en casi tidas las areas de la empresa.
 
@@ -428,7 +430,7 @@ colectivo dado a la orientación sobre temas relacionados con la
 seguridad de los sistemas de información, principalmente en relación con
 la planificación, implementación, gestión y auditoría de prácticas
 generales de seguridad de la información. Uno de los marcos más
-completos para la ciberseguridad es el NIST Cybersecurity Framework,. La
+completos para la ciberseguridad es el NIST Cybersecurity Framework, La
 guía del NIST sobre la confiabilidad de los sistemas cubre varias áreas
 técnicas. Estas áreas incluyen orientación general sobre ciberseguridad,
 computación en la nube, big data y sistemas físicos. Estos esfuerzos y
@@ -511,7 +513,7 @@ información, boletines del Laboratorio de Tecnología de la Información
     publicaciones del NIST son realmente un tesoro de valiosa y práctica
     guía.
 
-    13. ### La ISO y su sistema de gobierno 
+    14. ### La ISO y su sistema de gobierno 
 
 ISO es una red de institutos de normas nacionales de más de 164 países.
 Cada país miembro tiene permitido un delegado, y una Secretaría Central
