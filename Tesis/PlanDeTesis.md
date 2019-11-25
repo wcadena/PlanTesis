@@ -26,6 +26,13 @@ completa.\]
 
 Resumen
 
+El riesgo, el tema del capítulo anterior, es el enfoque más conocido y
+quizás el mejor estudiado dentro de una clase mucho más amplia de
+evaluaciones de seguridad cibernética. Sin embargo, la evaluación de
+riesgos no es el único enfoque posible para la seguridad cibernética.
+Existen otros enfoques y métricas como la resiliencia y podrían ser
+potencialmente muy valiosos para los defensores de los sistemas ICS.
+
 \[El resumen ha de tener una longitud de un párrafo de entre 150 y 250
 palabras. sin sangría. Los títulos de sección, como la palabra *Resumen*
 anterior, no se consideran títulos, por lo que no se usa formato de
@@ -245,15 +252,17 @@ disponibilidad de la información.
 -   Determinar los controles de seguridad que se aplicaran a Tatoo
     Adventure Gear sede Ecuador mediante el análisis de los indicadores
     de la CIS-RAM que permitan la mitigación de las vulnerabilidades
-    encontradas {Limitar el análisis}.
+    encontradas mediante los controles CIS asignados.
 
 -   Aplicar los controles seleccionados de la CIS en la empresa Tatoo
     Adventure Gear de las cede Ecuador para atenuar los riesgos
     asociados con las amenazas de seguridad de la información
     existentes.
 
-    3.  Justificaciones {técnica metodológica }
-        ---------------------------------------
+    3.  Justificaciones {técnica metodológica}
+        --------------------------------------
+
+        7.  ### Técnica
 
 La información es el nuevo activo más importante para la empresa, ahora,
 el primer paso para tener segura la inversión que se ha realizado es
@@ -276,6 +285,44 @@ la falta de políticas y procedimientos, también se ha notado que los
 activos no se encuentran asignados a un responsable y que los usuarios
 pueden ejecutar aplicaciones como administradores poniendo su equipo e
 información en riesgo.
+
+### Metodológica
+
+En los últimos años se ha hecho evidente que, en el mundo de la
+seguridad de la información, el delito supera a la defensa. A pesar de
+que los presupuestos aumentan y la administración presta más atención a
+los riesgos de pérdida de datos y penetración del sistema, los datos aún
+se pierden y los sistemas aún se están penetrando. Una y otra vez las
+personas preguntan: \"¿Qué podemos hacer prácticamente para proteger
+nuestra información?\". La respuesta ha llegado en la forma de 20
+controles de garantía de información conocidos como los Controles CIS.
+
+Critical Security Controls se enfoca primero en priorizar las funciones
+de seguridad que son efectivas contra las últimas amenazas dirigidas
+avanzadas, con un fuerte énfasis en \"Lo que funciona\": controles de
+seguridad donde se utilizan productos, procesos, arquitecturas y
+servicios que han demostrado efectividad en el mundo real. La
+estandarización y la automatización son otra de las principales
+prioridades, para obtener eficiencias operativas y al mismo tiempo
+mejorar la efectividad. Las acciones definidas por los Controles son
+demostrablemente un subconjunto del amplio catálogo definido por el
+Instituto Nacional de Estándares y Tecnología (NIST) SP 800-53. Los
+Controles no intentan reemplazar el trabajo del NIST, incluido el Marco
+de Seguridad Cibernética desarrollado en respuesta a la Orden Ejecutiva
+13636. En cambio, los Controles priorizan y se centran en un número
+menor de controles accionables con altos beneficios, con el objetivo de
+una filosofía \"debe hacer primero\". Dado que los Controles se
+derivaron de los patrones de ataque más comunes y se examinaron en una
+comunidad muy amplia de gobierno e industria, con un consenso muy fuerte
+sobre el conjunto resultante de controles, sirven como base para una
+acción inmediata de alto valor.
+
+El método de evaluación de riesgos CIS es un método gratuito de
+estimación de peligros de seguridad de la información que ayuda a las
+organizaciones a implementar y evaluar su postura de seguridad frente a
+las mejores prácticas de seguridad cibernética de Controles de CIS y CIS
+RAM proporciona instrucciones, ejemplos, plantillas y ejercicios para
+realizar una evaluación de riesgos cibernéticos
 
 Marco teórico
 -------------
@@ -464,7 +511,7 @@ información, boletines del Laboratorio de Tecnología de la Información
     publicaciones del NIST son realmente un tesoro de valiosa y práctica
     guía.
 
-    11. ### La ISO y su sistema de gobierno 
+    13. ### La ISO y su sistema de gobierno 
 
 ISO es una red de institutos de normas nacionales de más de 164 países.
 Cada país miembro tiene permitido un delegado, y una Secretaría Central
