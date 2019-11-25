@@ -365,7 +365,7 @@ unidades lógicas y tangibles que llamaremos dominios. Los dominios de
 seguridad están asociados con agrupaciones designadas de actividades,
 sistemas o recursos relacionados.
 
-### Marcos y standares de referencia de seguridad 
+### Marcos y estándares de referencia de seguridad 
 
 Una serie de organizaciones públicas y privadas, incluida la
 Organización Internacional de Normalización (ISO) y el Instituto
