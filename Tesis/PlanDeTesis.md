@@ -577,11 +577,758 @@ prácticas de seguridad que es aceptada globalmente, estos expertos
 provienen de varios sectores que incluyen ventas al por menor,
 fabricación, salud, educación, gobierno, defensa y otros.
 
+Marco Conceptual
+----------------
+
+**Apropiado**: Una condición en la cual los riesgos para los activos de
+información no crearán previsiblemente un daño que sea mayor de lo que
+la organización o las partes interesadas pueden tolerar.
+
+**Clase de activo**: Un grupo de activos de información que se evalúan
+como un conjunto en función de su similitud. \"Servidores\",
+\"computadoras de usuario final\", \"dispositivos de red\" son ejemplos,
+como son \"servidores de correo electrónico\", \"servidores web\" y
+\"servidores de autenticación\".
+
+**Ruta de ataque**: una serie de actividades y activos de información
+dentro del ciclo de vida de un incidente de seguridad.
+
+**Modelo de ruta de ataque**: una descripción de cómo puede ocurrir una
+ruta de ataque específica dentro de un entorno.
+
+**Carga**: El impacto negativo que una salvaguarda puede representar
+para la organización, o para otros.
+
+**Propietarios de empresas**: personal que posee procesos comerciales,
+bienes o servicios que las tecnologías de la información admiten. es
+decir, gerentes de servicio al cliente, gerentes de producto, gestión de
+ventas.
+
+**Constituyentes**: Los individuos u organizaciones que pueden ser
+beneficio desde la seguridad efectivo sobre los activos de información,
+o puede ser dañado si falla la seguridad.
+
+**Control**: un método documentado para proteger los activos de
+información mediante salvaguardas técnicas, físicas o de procedimiento.
+
+**Objetivo de control**: el resultado previsto de un control.
+
+**Cuidado debido**: la cantidad de cuidado que una persona razonable
+tomaría para evitar daños previsibles a otros.
+
+**Deber de cuidado**: la responsabilidad de garantizar que no se
+produzcan daños a otros mientras se realizan actividades, se ofrecen
+bienes o servicios o se realizan actos que previsiblemente podrían dañar
+a otros.
+
+**Impacto**: el daño que puede sufrir cuando una amenaza compromete un
+activo de información.
+
+**Puntuación de impacto**: la magnitud del impacto que puede sufrir.
+Esto se establece en lenguaje sencillo y está asociado con escalas
+numéricas, generalmente de \'1\' a \'3\' o \'1\' a \'5\'.
+
+**Tipo de impacto**: una categoría de impacto que estima la cantidad de
+daño que puede afectar a una parte o un propósito. La RAM CIS describe
+tres tipos de impacto; Misión, objetivos y obligaciones.
+
+**Activo de información**: información o los sistemas, procesos,
+personas e instalaciones que facilitan el manejo de la información.
+
+**Riesgo inherente**: la probabilidad de que ocurra un impacto cuando
+una amenaza compromete un activo desprotegido.
+
+**Indicador clave de riesgo**: agregaciones y análisis de tendencias de
+medidas que la administración puede usar para comprender su estado de
+riesgo.
+
+**Probabilidad**: el grado en que se espera que una amenaza genere un
+impacto. Puede expresarse en términos de frecuencia, previsibilidad o
+probabilidad.
+
+**Medida**: Una indicación repetible y basada en evidencia de que una
+salvaguarda logra su objetivo de control.
+
+**Riesgo observado**: El riesgo actual tal como le parece al evaluador
+de riesgos.
+
+**Probabilidad**: el producto del análisis estadístico que estima la
+probabilidad de un evento.
+
+**Razonable**: Una condición en la cual las salvaguardas no crearán una
+carga para la organización que sea mayor que el riesgo contra el cual se
+pretende proteger.
+
+**Riesgo residual**: el riesgo que queda después de aplicar una
+salvaguarda. CIS RAM no utiliza directamente este concepto, pero implica
+que el riesgo se reduce cuando se aplica una protección. El riesgo
+residual no tiene en cuenta los posibles impactos negativos para la
+organización cuando se aplican las salvaguardas.
+
+**Riesgo**: una estimación de la probabilidad de que una amenaza cree un
+impacto no deseado. En términos de este método, el riesgo puede
+expresarse como el producto de una probabilidad y un impacto.
+
+Estado del arte
+---------------
+
+A continuación, examinamos y analizamos el estado del arte relacionado
+con las métricas de seguridad de la nube, asignadas a los tres grupos de
+requisitos propuestos en la Sección 2.
+
+### Taxonomías
+
+Una de las primeras taxonomías que aborda la seguridad de la nube se
+puede encontrar en el informe de ENISA (Trimintzios, 2011), donde los
+autores proponen un enfoque basado en el riesgo. Esta taxonomía se
+centra en las consideraciones basadas en los riesgos y les asigna
+puntajes cualitativos, además, también presenta un conjunto de
+vulnerabilidades y activos afectados que pueden usarse para desarrollar
+métricas específicas para la nube. El trabajo de (Grobauerand
+Walloschek, 2010) es complementario al informe de ENISA, donde los
+autores profundizan sobre la necesidad de medir el nivel de seguridad de
+un proveedor de Cloud a través de un enfoque basado en la
+vulnerabilidad. Su contribución principal es una descripción general de
+las vulnerabilidades específicas de la nube, que pueden organizarse más
+en una taxonomía para los modelos de Infraestructura como Servicio
+(IaaS). Basado en su investigación previa sobre taxonomías de métricas
+de seguridad, Savola (Savola et al., 2010) utiliza un enfoque basado en
+la actividad física para proponer una taxonomía de alto nivel y métricas
+asociadas para medir la seguridad, privacidad y confiabilidad de la
+nube. La propuesta de taxonomía contribuye al estado del arte con la
+inclusión de una nueva clase de taxonomía centrada en las
+características de privacidad de la nube. El Modelo de Madurez de
+Garantía Común (CAMM) de Cloud Security Al-liance (CSA) y el Grupo de
+Trabajo de Matriz de Controles de Cloud, son las principales iniciativas
+de investigación de métricas de seguridad de Cloud industrial. CAMM
+(CAMM, 2010) es un proyecto industrial en curso que tiene como objetivo
+crear un marco para certificar la madurez de aseguramiento de la
+información de un proveedor de Cloud. Para cumplir su objetivo, CAMM
+propone un conjunto de controles basados ​​en la taxonomía de ENISA
+(Catteddu et al., 2009), la Matriz de control de la nube.
+
+del CSA (CCM, 2011), y estándares existentes como ISO 27001 (ISO27001,
+2005). CAMM es una iniciativa en curso que hasta ahora no ha propuesto
+ninguna nueva taxonomía o métrica de alto nivel. El CSA también promueve
+la Matriz de controles de la nube (CSA CCM (CCM, 2011)), que se basa en
+(Brunette et al., 2009) y propone una serie de preguntas que
+proporcionan requisitos de seguridad fundamentales para guiar a los
+proveedores de la nube y a los clientes de Cloud a evaluar riesgo
+general de seguridad de un proveedor de la nube. El CCM de CSA busca
+crear una taxonomía de métricas de seguridad en la nube y un conjunto de
+medidas de seguridad asociadas. La taxonomía CCM se deriva de (Brunette
+et al., 2009) y, a pesar de su utilidad, resulta desafiante con respecto
+a la derivación de métricas cuantitativas y objetivas de ella. A pesar
+de no centrarse en la Nube, hay dos taxonomías de seguridad que vale la
+pena mencionar. para su uso comunitario: la taxonomía del Instituto
+Nacional de Seguridad y Normas (NIST) (Chew et al., 2008), y la aportada
+por el Centro de Seguridad de Internet (CIS) en (Centro de Seguridad de
+Internet, 2010)). Ambas son bastante similares acerca de las categorías
+definidas y el conjunto propuesto de definiciones métricas. Debido a su
+flexibilidad, creemos que las métricas propuestas en ambos documentos
+también se pueden aplicar a la nube a través de taxonomías como p. Ej.
+el de ENISA (Trimintzios, 2011).
+
+### Métricas
+
+Uno de los pocos trabajos centrados en evaluar cuantitativamente la
+seguridad de una nube IaaS \"pura\" se ha presentado en (Arshad et al.,
+2010), donde los autores introducen la idea de integrar métricas de
+seguridad en un planificador IaaS. Desafortunadamente, no se dan más
+detalles sobre la arquitectura o las políticas utilizadas por el sistema
+de evaluación de seguridad propuesto. El Modelo de Madurez de
+Aseguramiento Común (CAMM) (CAMM, 2010) explora métricas y mediciones
+proponiendo cuantificar el nivel de evaluación requerido para lograr una
+mayor confianza. CAMM considera los principios de la dosa-sic:
+
+puntajes de diferentes componentes que pueden componerse para modelar el
+nivel de seguridad de un proveedor de Cloud (Hogben, 2011). Al momento
+de escribir este documento, CAMM no ha publicado más información sobre
+las métricas propuestas. El Grupo de trabajo CSA Met-rics complementa el
+CSA CCM (CCM, 2011), al desarrollar las métricas de seguridad necesarias
+para evaluar los requisitos del CCM. El CSA Metrics WG ha creado una
+plantilla que caracteriza cada métrica con atributos, y también ha
+propuesto sus primeras 10 métricas que cubren aproximadamente 25 de las
+áreas de control de CCM. Desde nuestra perspectiva, este es un trabajo
+útil en progreso, pero que aún debe complementarse con los modelos
+formales para lograr las características requeridas como la
+componibilidad de dos o más métricas. Nuestro grupo de investigación
+está colaborando con CSA Met-rics Work Group en para lograr estos
+objetivos. En (Catteddu et al., 2011) ENISA analiza los riesgos
+asociados con el uso de la computación en la nube. Este informe propone
+un conjunto de parámetros de seguridad y resistencia que pueden
+evaluarse para comparar diferentes proveedores de servicios en la nube.
+Los parámetros propuestos se dividen en categorías de alto nivel
+(preparación, prestación de servicios, respuesta, recuperación,
+cumplimiento legal y regulatorio), pero desafortunadamente algunos de
+estos son cualitativos (por ejemplo, tolerancia a ataques maliciosos).
+También vale la pena mencionar las contribuciones de métricas de
+seguridad realizadas por (Wang, 2005), NIST (Chew et al., 2008) y CIS
+(Centro de Seguridad de Internet, 2010) en particular con la definición
+de una \"plantilla\" métrica flexible que al- mínimos para crear
+métricas más específicas que sean objetivas y cuantitativas. Un punto
+que falta con estas métricas (además de no tener un enfoque en las
+nubes) es la falta de un conjunto de reglas o \"álgebra\" que permita
+modelar servicios complejos en la nube (por ejemplo, federaciones).
+
+### Arquitecturas de referencia
+
+Las arquitecturas y tecnologías de referencia que permiten el uso de
+métricas de seguridad en la nube todavía están en una etapa muy
+temprana, sin embargo, el esfuerzo más representativo es la API
+CloudAudit (CloudAudit, 2011), que tiene como objetivo brindar más
+\"transparencia\" a los proveedores de la nube mediante la creación de
+una interfaz común y espacio de nombres que les permite automatizar la
+auditoría, la afirmación, la evaluación y el aseguramiento de sus
+entornos. TheCloudAuditAPI se puede utilizar para recuperar y
+transportar automáticamente los atributos del proveedor, lo que permite
+a los clientes realizar mediciones de seguridad sobre la marcha.
+CloudAudit será una pieza esencial del marco propuesto por nuestra
+investigación, porque ha sido diseñado en tal de manera que se pueda
+utilizar con nuevas taxonomías y métricas. Para la investigación en
+curso presentada en este documento, también vale la pena mencionar tres
+proyectos financiados por la UE que están desarrollando arquitecturas de
+referencia que utilizan métricas de baja seguridad para mejorar la
+seguridad, la privacidad y la capacidad de recuperación de TI
+infraestructuras El primer proyecto es INSPIRE ((D\'Antonio et al.,
+2008), (IN-SPIRE, 2011)), un proyecto de investigación financiado por la
+CE cuyo nombre significa \"IN Increase Security and Protection through
+Infrastructure REsilience\", con un enfoque en el control de supervisión
+y la adquisición de datos ( SCADA) sistemas. Dentro del proyecto
+INSPIRE, aparece una superposición 
+
+Se adoptó un enfoque para proponer una arquitectura para monitorear y
+reaccionar a las perturbaciones en la capa de comunicación de la red
+SCADA. En segundo lugar, el proyecto CoMiFin (Middleware de comunicación
+para el monitoreo de la infraestructura crítica financiera (CoMiFin,
+2011)) adopta un enfoque similar al INSPIRE y proporciona una
+arquitectura superpuesta para las instituciones financieras para
+compartir información de seguridad relevante como alertas sobre ataques
+cibernéticos y otras amenazas. El middleware de CoMiFin es capaz de
+detectar de manera colaborativa el ciberataque derivado de patrones que
+una sola institución financiera no puede monitorear. Un marco de
+monitoreo de métricas
+
+se ha desarrollado dentro de este proyecto (Ghani et al., 2010) para
+calcular las métricas de seguridad y monitorear el cumplimiento de los
+requisitos de seguridad. Finalmente, vale la pena mencionar el proyecto
+ABC4Trust recientemente iniciado (ABC4Trust, 2011), que tiene como
+objetivo (entre otros objetivos) establecer un marco de comparación y
+una arquitectura asociada para la llamada credenciales anónimas.
+
+Esperamos que la arquitectura de métricas de seguridad que se desarrolle
+en ABC4Trust, también se pueda aplicar a los servicios de Cloud debido
+al enfoque que se está tomando (métricas de nivel de servicio,
+tecnológicamente neutrales).
+
+Adopción de una perspectiva teórica
+-----------------------------------
+
+CIS RAM proporciona tres conjuntos de instrucciones que describen un
+proyecto completo de evaluación de riesgos. Cada conjunto de
+instrucciones está diseñado para organizaciones con diferentes
+capacidades de gestión de seguridad de la información para aumentar la
+utilidad del método.
+
+Comenzaremos la evaluación de riesgos en el primer conjunto de
+instrucciones con poca participación de la administración del negocio.
+En el segundo conjunto de instrucciones utilizaremos métodos y
+razonamientos más refinados.
+
+2.  Método 
+    =======
+
+    8.  Manual de análisis de riesgos, una introducción
+        -----------------------------------------------
+
+Las leyes, regulaciones y estándares de seguridad de la información no
+esperan que el público pueda o prevenga todos los incidentes de
+seguridad de la información. En su lugar, nos hacen responsables de
+mirar hacia adelante en lo que podría salir mal y de utilizar
+salvaguardas que no sean demasiado pesadas para evitar ese daño. Esa es
+la esencia del análisis de riesgos del deber de cuidado\[4\] (\"DoCRA\")
+en el que se basa la RAM CIS.
+
+Bases en Derecho y Regulación
+-----------------------------
+
+El método de análisis de riesgos de CIS RAM fue diseñado para
+proporcionar un terreno común para especialistas en seguridad y gerentes
+de negocios, y para autoridades legales y reguladoras que deben evaluar
+la suficiencia de las salvaguardas de seguridad.
+
+En Ecuador en abril del 2002 debido a la creciente aparición del
+internet y la necesidad de globalización se creó el primer intento de
+normalización de las comunicsaciones, esto es importante ya que hoy por
+hoy es la principal herramienta de comunicaciones entre pares y empresas
+y también esto representa según la normativa un bien digital que se debe
+proteger y garantizar a la par que el manejo de comunicaciones digitales
+ha causado el interés de atacantes sobre estos activos digitales.
+
+Los organismos nacionales e internacionales de normas de seguridad de la
+información desarrollaron métodos de evaluación de riesgos, como las
+publicaciones especiales NIST 800-30, ISO 27005 y RISK IT para ayudar al
+público a evaluar los riesgos en entornos de tecnología de la
+información. Estas normas de seguridad de la información también
+utilizaron la misma ecuación utilizada por los reguladores de los EE.
+UU. - \"Riesgo = Impacto x Probabilidad\" - para expresar la
+previsibilidad de los daños que podrían sufrir los sistemas de
+información e información.
+
+Tabla 3: Alineación de principios y prácticas de RAM de CIS a la ley,
+regulaciones y estándares de seguridad - Anexo 3.2.
+
++-----------------+-----------------+-----------------+-----------------+
+|                 |                 |                 | **Normas de     |
+|                 |                 |                 | seguridad**     |
+| **Principios y  | **Ley**         | **Reglamento**  |                 |
+| prácticas de    |                 |                 |                 |
+| CIS RAM y       |                 |                 |                 |
+| DoCRA**         |                 |                 |                 |
++=================+=================+=================+=================+
+| El análisis de  |                 |                 |                 |
+| riesgos debe    |                 |                 |                 |
+| considerar los  |                 |                 |                 |
+| intereses de    |                 |                 |                 |
+| todas las       |                 |                 |                 |
+| partes que      |                 |                 |                 |
+| puedan verse    |                 |                 |                 |
+| perjudicados    |                 |                 |                 |
+| por el riesgo.  |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Los riesgos     |                 |                 |                 |
+| deben reducirse |                 |                 |                 |
+| a un nivel que  |                 |                 |                 |
+| las autoridades |                 |                 |                 |
+| y las partes    |                 |                 |                 |
+| potencialmente  |                 |                 |                 |
+| afectadas       |                 |                 |                 |
+| consideren      |                 |                 |                 |
+| apropiadas.     |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Las             |                 |                 |                 |
+| salvaguardas no |                 |                 |                 |
+| deben ser más   |                 |                 |                 |
+| onerosas que    |                 |                 |                 |
+| los riesgos     |                 |                 |                 |
+| contra los que  |                 |                 |                 |
+| protegen.       |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| El análisis de  |                 |                 |                 |
+| riesgos         |                 |                 |                 |
+| considera la    |                 |                 |                 |
+| probabilidad de |                 |                 |                 |
+| que ciertas     |                 |                 |                 |
+| amenazas puedan |                 |                 |                 |
+| crear           |                 |                 |                 |
+| magnitudes de   |                 |                 |                 |
+| impacto.        |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Los riesgos y   |                 |                 |                 |
+| las             |                 |                 |                 |
+| salvaguardas se |                 |                 |                 |
+| evalúan         |                 |                 |                 |
+| utilizando los  |                 |                 |                 |
+| mismos          |                 |                 |                 |
+| criterios para  |                 |                 |                 |
+| poder           |                 |                 |                 |
+| compararlos.    |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Los puntajes de |                 |                 |                 |
+| impacto y       |                 |                 |                 |
+| probabilidad    |                 |                 |                 |
+| tienen un       |                 |                 |                 |
+| componente      |                 |                 |                 |
+| cualitativo que |                 |                 |                 |
+| expone de       |                 |                 |                 |
+| manera concisa  |                 |                 |                 |
+| las             |                 |                 |                 |
+| preocupaciones  |                 |                 |                 |
+| de las partes   |                 |                 |                 |
+| interesadas,    |                 |                 |                 |
+| las autoridades |                 |                 |                 |
+| y la            |                 |                 |                 |
+| organización    |                 |                 |                 |
+| evaluadora.     |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Los puntajes de |                 |                 |                 |
+| impacto y       |                 |                 |                 |
+| probabilidad se |                 |                 |                 |
+| derivan de un   |                 |                 |                 |
+| cálculo         |                 |                 |                 |
+| numérico que    |                 |                 |                 |
+| permite la      |                 |                 |                 |
+| comparabilidad  |                 |                 |                 |
+| entre todos los |                 |                 |                 |
+| riesgos,        |                 |                 |                 |
+| salvaguardas y  |                 |                 |                 |
+| criterios de    |                 |                 |                 |
+| aceptación de   |                 |                 |                 |
+| riesgos         |                 |                 |                 |
+| evaluados.      |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Las             |                 |                 |                 |
+| definiciones de |                 |                 |                 |
+| impacto         |                 |                 |                 |
+| aseguran que la |                 |                 |                 |
+| magnitud del    |                 |                 |                 |
+| daño a una de   |                 |                 |                 |
+| las partes se   |                 |                 |                 |
+| equipare con la |                 |                 |                 |
+| magnitud del    |                 |                 |                 |
+| daño a los      |                 |                 |                 |
+| demás.          |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Las             |                 |                 |                 |
+| definiciones de |                 |                 |                 |
+| impacto deben   |                 |                 |                 |
+| tener un límite |                 |                 |                 |
+| explícito entre |                 |                 |                 |
+| aquellas        |                 |                 |                 |
+| magnitudes que  |                 |                 |                 |
+| serían          |                 |                 |                 |
+| aceptables para |                 |                 |                 |
+| todas las       |                 |                 |                 |
+| partes y        |                 |                 |                 |
+| aquellas que no |                 |                 |                 |
+| lo serían.      |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Dirección de    |                 |                 |                 |
+| definiciones de |                 |                 |                 |
+| impacto; La     |                 |                 |                 |
+| misión o la     |                 |                 |                 |
+| utilidad de la  |                 |                 |                 |
+| organización    |                 |                 |                 |
+| para explicar   |                 |                 |                 |
+| por qué la      |                 |                 |                 |
+| organización y  |                 |                 |                 |
+| otros           |                 |                 |                 |
+| involucran el   |                 |                 |                 |
+| riesgo, los     |                 |                 |                 |
+| objetivos       |                 |                 |                 |
+| egoístas de la  |                 |                 |                 |
+| organización y  |                 |                 |                 |
+| las             |                 |                 |                 |
+| obligaciones de |                 |                 |                 |
+| la organización |                 |                 |                 |
+| de proteger a   |                 |                 |                 |
+| otros del daño. |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| El análisis de  |                 |                 |                 |
+| riesgos se basa |                 |                 |                 |
+| en un estándar  |                 |                 |                 |
+| de atención     |                 |                 |                 |
+| para analizar   |                 |                 |                 |
+| los controles   |                 |                 |                 |
+| actuales y las  |                 |                 |                 |
+| garantías       |                 |                 |                 |
+| recomendadas.   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| El riesgo es    |                 |                 |                 |
+| analizado por   |                 |                 |                 |
+| expertos en la  |                 |                 |                 |
+| materia que     |                 |                 |                 |
+| usan evidencia  |                 |                 |                 |
+| para evaluar    |                 |                 |                 |
+| riesgos y       |                 |                 |                 |
+| salvaguardas.   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Las             |                 |                 |                 |
+| evaluaciones de |                 |                 |                 |
+| riesgos no      |                 |                 |                 |
+| pueden evaluar  |                 |                 |                 |
+| todos los       |                 |                 |                 |
+| riesgos         |                 |                 |                 |
+| previsibles. La |                 |                 |                 |
+| s               |                 |                 |                 |
+| evaluaciones de |                 |                 |                 |
+| riesgos vuelven |                 |                 |                 |
+| a ocurrir para  |                 |                 |                 |
+| identificar y   |                 |                 |                 |
+| abordar más     |                 |                 |                 |
+| riesgos con el  |                 |                 |                 |
+| tiempo.         |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+
+Las organizaciones que realizan evaluaciones de riesgos utilizando el
+CIS RAM tendrán un plan para implementar los Controles CIS V7 que sea
+razonable y defendible tanto para las autoridades como para los
+expertos.
+
+¿Vale la pena este análisis extendido? En pocas palabras, sí.
+-------------------------------------------------------------
+
+Los controles de seguridad de la información a menudo se consideran un
+obstáculo para los negocios. Los usuarios a menudo se quejan de que los
+controles de seguridad obstaculizan la productividad, la eficiencia, la
+facilidad de colaboración y comunicación, y otras preocupaciones que
+afectan el negocio. Las organizaciones deben tomar estas quejas en
+serio. Afortunadamente, los reguladores han proporcionado a las
+organizaciones un medio para evaluar estas preocupaciones. Además, los
+tribunales consideran la carga de las salvaguardas en los juicios y
+entenderían el razonamiento que proporciona este análisis de riesgos.
+
+Al evaluar los riesgos y sus salvaguardas recomendadas utilizando el
+mismo criterio, las organizaciones aseguran que el análisis de riesgos
+aborde las preocupaciones de todas las partes dentro y fuera de su
+organización, y proporcione evidencia de su decisión consciente a los
+reguladores y jueces.
+
+11. Tipo de estudio
+    ---------------
+
+    19. ### Nivel de evaluación de riesgos 
+
+Los Niveles indican \"cómo una organización ve el riesgo de
+ciberseguridad y los procesos establecidos para gestionar ese riesgo\".
+Los Niveles se definen por NIST de la siguiente manera.
+
+**Nivel 1: Parcial**
+
+-   Proceso de gestión de riesgos: informal y ad hoc.
+
+-   Programa integrado de gestión de riesgos: conciencia limitada dentro
+    de la organización.
+
+-   Participación externa: no se coordina con entidades externas.
+
+**Nivel 2: Riesgo informado**
+
+-   Proceso de gestión de riesgos: informado por los objetivos de riesgo
+    de la organización.
+
+-   Programa integrado de gestión de riesgos: procesos y procedimientos
+    informados por el riesgo y aprobados por la administración.
+
+-   Participación externa: no se coordina con entidades externas.
+
+**Nivel 3: Repetible**
+
+-   Proceso de gestión de riesgos: aplicado a través de políticas y
+    actualizado con cambios en el entorno y las amenazas.
+
+-   Programa integrado de gestión de riesgos: las políticas y procesos
+    informados sobre riesgos se utilizan en toda la empresa. El personal
+    está capacitado e informado para trabajar de manera segura.
+
+-   Participación externa: recibir información de los socios para tomar
+    decisiones internas basadas en el riesgo.
+
+**Nivel 4: Adaptativo**
+
+-   Proceso de gestión de riesgos: adaptable a través de las lecciones
+    aprendidas y la mejora continua.
+
+-   Programa integrado de gestión de riesgos: cultura de conciencia de
+    seguridad en toda la empresa y mejora continua basada en lecciones
+    aprendidas e información externa.
+
+-   Participación externa: compartir información de seguridad y amenazas
+    con los socios.
+
+    20. ### Elección de una perspectiva de ciberseguridad 
+
+En base a los niveles del NIST y los requerimientos de implementación
+recogidos en las encuestas realizadas y con el alcance estipulado en el
+acuerdo de implementación se observa que el nivel de seguridad más
+adecuado es el nivel 1.
+
+Nivel NIST: organizaciones de Nivel 1. Los materiales de Nivel 1 son los
+más adecuados para organizaciones que no coordinan sus planes y
+requisitos de seguridad de la información en toda la organización. La
+seguridad de la información está impulsada en gran medida por la gestión
+de la tecnología.
+
+Experiencia: la organización puede identificar amenazas genéricas, pero
+no métodos específicos para piratear sistemas, dispositivos y
+aplicaciones.
+
+Tiempo: la organización puede absorber el tiempo necesario para evaluar
+los riesgos de la información a nivel de sistemas, dispositivos y
+aplicaciones genéricos.
+
+Modalidad de investigación
+--------------------------
+
+Las evaluaciones de riesgos son proyectos con pasos claros para
+preparar, realizar e informar el análisis de riesgos. Y aunque los
+proyectos de evaluación de riesgos pueden modelarse con un plan típico,
+el enfoque de proyecto de cada organización variará dependiendo de
+factores como la disponibilidad de recursos, y se desarrollará con el
+tiempo a medida que las organizaciones se vuelvan más capaces en su
+madurez de ciberseguridad. Esta sección describirá un proyecto de
+evaluación de riesgos, sus componentes y variaciones, y presentará una
+guía para preparar el plan.
+
+3.  Aspectos Administrativos
+    ========================
+
+    13. El esquema del proyecto
+        -----------------------
+
+Las evaluaciones de riesgos se llevan a cabo utilizando una serie de
+pasos que incluyen acciones típicas y roles como se ilustra en la
+siguiente tabla:
+
+Tabla 4: Esquema de proyecto de evaluación de riesgos
+
+  Paso   Tarea                                                  Roles Claves
+  ------ ------------------------------------------------------ ------------------------------
+  1      Definición del alcance y la programación de sesiones   Ejecutivos, Gerencia, Asesor
+  2      Definición de criterios de evaluación de riesgos       Gerente, Asesor
+  3      Definición de criterios de aceptación de riesgos       Ejecutivos, Gerencia, Asesor
+  4      Evaluación de riesgos (basada en control)              
+  4.1    Reunir evidencias                                      Personal, Gerencia, Asesor
+  4.2    Modelar las amenazas                                   Personal, Gerencia, Asesor
+  4.3    Evaluación de riesgo                                   Asesor
+  5      Proponer salvaguardas                                  
+  5.1    Evaluar las salvaguardas propuestas                    Asesor, Gerencia
+
+Definiendo el Alcance físico
+----------------------------
+
+Las organizaciones deben realizar evaluaciones de riesgos en relación
+con un alcance claramente definido de los activos de información. Por lo
+general, el nombre limita el alcance de los activos, como "activos de
+información que contienen información confidencial", "el centro de
+datos", "áreas de práctica de ingeniería y tecnologías que los
+respaldan" o una división comercial específica.
+
+Si bien es posible seleccionar activos de información no relacionados
+para una evaluación, o un subconjunto de activos dentro de un alcance
+más amplio, la organización que recibe la evaluación y está haciendo
+inversiones y decisiones de priorización basadas en sus hallazgos se
+sentirá más cómoda cuando los activos de información están asociados con
+una entidad comercial o un proceso comercial. De lo contrario, los
+resultados de la evaluación de riesgos pueden parecer dispersos y no
+relacionados.
+
+Del mismo modo, al evaluar el riesgo de un conjunto de activos de
+información, tiene sentido considerar un conjunto de activos que pueden
+afectar directamente la seguridad de los demás. Por ejemplo, una
+evaluación de riesgos que examina un conjunto de aplicaciones también
+debe incluir los dispositivos de red que conectan las aplicaciones a
+otros activos y otras redes, así como los procesos que se utilizan para
+desarrollar y administrar esas aplicaciones. Estos sistemas están
+directamente conectados entre sí y dependen unos de otros, por lo que
+sus riesgos se asocian fácilmente entre sí.
+
+Las organizaciones no pueden examinar todos los activos de información
+de manera exhaustiva en una única evaluación de riesgos, por lo que su
+alcance debe considerar el tiempo y los recursos disponibles para la
+evaluación.
+
+Tabla 5: Alcance de activos de empresa.
+
+  Tipo de activo   Clase de Activo   Área de negocio   Custodio
+  ---------------- ----------------- ----------------- ----------------
+  Información      Documentos        Contabilidad      Contabilidad
+  Servidores       Server            Help Desk         Help Desk
+  Equipos de red   Equipos de red    Help Desk         Help Desk
+  Equipo           Equipos           Márquetin         Carrito online
+                                                       
+
+Programación de sesiones de entrevista
+--------------------------------------
+
+Las sesiones de entrevista serán de actualidad y deben abordar un tema o
+temas estrechamente relacionados para cada conversación. Las sesiones de
+entrevista pueden centrarse en los controles de CIS o en los activos de
+información y las clases de activos.
+
+Por ejemplo, las sesiones de entrevistas que se centran en los Controles
+CIS reunirían al personal y la gerencia que saben cómo se implementa y
+opera cada control. Una sesión puede ser dedicado a CIS Control 1 para
+comprender cómo se inventarían los dispositivos. Se puede programar otro
+para discutir CIS Control 2 para comprender qué salvaguardas existen
+para el software de inventario. O, si el mismo personal conoce ambas
+salvaguardas, la n quizás una sesión podría combinar ambos temas.
+
+Del mismo modo, si los evaluadores de riesgos programan sesiones en
+torno a activos de información o clases de activos, entonces sería
+apropiado incluir propietarios de negocios y propietarios técnicos de
+esos sistemas para comprender cómo se aplican los Controles CIS
+asociados a cada activo o clase de activo.
+
+Programación de revisiones de evidencia
+---------------------------------------
+
+Los evaluadores de riesgos utilizan sesiones de revisión de evidencia
+para examinar los activos de información y; determine si se ajustan a
+los Controles CIS y evalúe si serían eficaces contra las amenazas
+previsibles.
+
+Las sesiones de revisión de evidencia deben programarse después de las
+entrevistas para que los evaluadores de riesgos comprendan el panorama
+general del entorno de seguridad antes de tratar de entender por qué
+ciertos conjuntos están configurados de la manera en que están.
+
+Se propone la siguiente tabla para manejar los avances del proyecto:
+
+Tabla 6: Plan de proyecto para implementación.
+
+  Paso   Tarea                                                  Roles Claves                   Duración             Asignado a   Fecha de inicio   Fecha de finalizacion   Status
+  ------ ------------------------------------------------------ ------------------------------ -------------------- ------------ ----------------- ----------------------- --------
+  1      Definición del alcance y la programación de sesiones   Ejecutivos, Gerencia, Asesor   1 día                                                                        
+  2      Definición de criterios de evaluación de riesgos       Gerente, Asesor                2 horas                                                                      
+  3      Definición de criterios de aceptación de riesgos       Ejecutivos, Gerencia, Asesor   2 horas                                                                      
+  4      Evaluación de riesgos (basada en control)                                             Ámbito dependiente                                                           
+  4.1    Reunir evidencias                                      Personal, Gerencia, Asesor                                                                                  
+  4.2    Modelar las amenazas                                   Personal, Gerencia, Asesor                                                                                  
+  4.3    Evaluación de riesgo                                   Asesor                                                                                                      
+  5      Proponer salvaguardas                                                                 Ámbito dependiente                                                           
+  5.1    Evaluar las salvaguardas propuestas                    Asesor, Gerencia                                                                                            
+  6      Aplicación de controles propuestos                     Asesor.                                                                                                    
+
+Índice o temario preliminar
+---------------------------
+
+Se propone el siguiente índice para el desarrollo de la investigación
+basada a la recomendación del framework:
+
+  Paso   Tarea                                                  Roles Claves
+  ------ ------------------------------------------------------ ------------------------------
+  1      Definición del alcance y la programación de sesiones   Ejecutivos, Gerencia, Asesor
+  2      Definición de criterios de evaluación de riesgos       Gerente, Asesor
+  3      Definición de criterios de aceptación de riesgos       Ejecutivos, Gerencia, Asesor
+  4      Evaluación de riesgos (basada en control)              
+  4.1    Reunir evidencias                                      Personal, Gerencia, Asesor
+  4.2    Modelar las amenazas                                   Personal, Gerencia, Asesor
+  4.3    Evaluación de riesgo                                   Asesor
+  5      Proponer salvaguardas                                  
+  5.1    Evaluar las salvaguardas propuestas                    Asesor, Gerencia
+  6      Aplicación de controles                                Asesor
+  6.1    Aplicación de control 1                                Asesor
+  6.2    Aplicación de control 2                                Asesor
+  6.3    Aplicación de control 3                                Asesor
+  6.4    Aplicación de control 4                                Asesor
+  6.5    Aplicación de control 5                                Asesor
+  7      Conclusiones                                           Asesor
+  8      Recomendaciones                                        Asesor
+
 Referencias
 
-Apellidos, n. s. (Año). Título del artículo. *Título del diario*,
-Páginas desde - hasta.Apellidos, n. s. (Año). *Título del libro.* Nombre
-de la ciudad: Nombre del editor.
+Congress. (2002). *PUBLIC LAW 107--347---DEC. 17 2002.* Washington:
+Congress.Corporación Favorita. (2019). *Informe Anual Corporación
+Favorita.* Quito: Imprenta Mariscal. Obtenido de
+https://issuu.com/corporacionfavorita/docs/informe\_cf\_2019\_International
+Organization for Standardization. (23 de 11 de 2019). *ABOUT US*.
+Obtenido de ISO - International Organization for Standardization:
+https://www.iso.org/about-us.htmlNational Institute of Standards and
+Technology \| NIST. (23 de 11 de 2019). *National Institute of Standards
+and Technology \| NIST*. Obtenido de COMPUTER SECURITY RESOURCE CENTER:
+https://csrc.nist.gov/publications/sp800National Institute of Standards
+and Technology \| NIST. (23 de 11 de 2019). *National Institute of
+Standards and Technology \| NIST*. Obtenido de COMPUTER SECURITY
+RESOURCE CENTER: https://csrc.nist.gov/publications/sp1800Ross, R.,
+Swanson , M., Stoneburner, G., Katzke , S., & Johnson, A. (2004). *Guide
+for the Security Certification and Accreditation of Federal Information
+Systems.* Gaithersburg: NIST Special Publication.Stalling, W. (2017).
+*Network Security Essentials Aplications and Standards.* Hoboken:
+Pearson.Terán, D. (2014). *Administración Estratégica de la Función
+Informática.* México: Alfaomega.Velthuis, M. P., del Peso, E., & del
+Peso, M. (2008). *Auditoría de tecnologías y de sistemas de
+información.* Madrid: Alfaomega Ra-Ma.
 
 Notas al pie
 
@@ -638,10 +1385,10 @@ ilustración y el título.\]
 Para obtener más información sobre todos los elementos del formato de
 estilo APA, vea el *Manual de estilo de la APA, 6.ª edición*.
 
-2.  Anexos
+4.  Anexos
     ======
 
-    5.  Encuesta del estado del área de sistemas aplicada al Helpdesk 
+    18. Encuesta del estado del área de sistemas aplicada al Helpdesk 
         --------------------------------------------------------------
 
   *Código*               *Pregunta*                                                                                                                                                                                                                                                                                                                                                         *Aplica*   *Si / NO*
@@ -781,4 +1528,142 @@ estilo APA, vea el *Manual de estilo de la APA, 6.ª edición*.
   *RC.IM-1*              Los planes de recuperación incorporan las lecciones aprendidas                                                                                                                                                                                                                                                                                                                 
   *RC.IM-2*              Se actualizan las estrategias de recuperación.                                                                                                                                                                                                                                                                                                                                
   *RC.RP*                Los procesos y procedimientos de recuperación se ejecutan y mantienen para garantizar la restauración de los sistemas o activos afectados por incidentes de ciberseguridad.                                                                                                                                                                                                    
-  *RC.RP-1*              El plan de recuperación se ejecuta durante o después de un incidente de ciberseguridad
+  *RC.RP-1*              El plan de recuperación se ejecuta durante o después de un incidente de ciberseguridad                                                                                                                                                                                                                                                                                        
+
+Principios y prácticas de CIS RAM
+---------------------------------
+
+> CIS RAM adopta los tres principios y diez prácticas del Análisis de
+> Riesgo del Deber de Cuidados. Los tres principios establecen las
+> características de las evaluaciones de riesgos que se alinean con las
+> expectativas regulatorias y legales. Las diez prácticas describen
+> características de las evaluaciones de riesgos que hacen alcanzables
+> los tres principios.
+
+Principios
+----------
+
+ 
+
+> 1. El análisis de riesgos debe considerar los intereses de todas las
+> partes que puedan verse perjudicadas por el riesgo.       
+>
+> 2\. Los riesgos deben reducirse a un nivel que las autoridades y las
+> partes potencialmente afectadas consideren apropiadas.       
+>
+> 3\. Las salvaguardas no deben ser más onerosas que los riesgos contra los
+> que protegen.       
+
+Practicas
+---------
+
+> 1. El análisis de riesgos considera la probabilidad de que ciertas
+> amenazas puedan crear magnitudes de impacto.       
+>
+> 2\. Los riesgos y las salvaguardas se evalúan utilizando los mismos
+> criterios para poder compararlos.       
+>
+> 3. Los puntajes de impacto y probabilidad tienen un componente
+> cualitativo que expone de manera concisa las preocupaciones de las
+> partes interesadas, las autoridades y la organización
+> evaluadora.       
+>
+> 4. Los puntajes de impacto y probabilidad se derivan de un cálculo
+> numérico que permite la comparabilidad entre todos los riesgos,
+> salvaguardas y criterios de aceptación de riesgos evaluados.       
+>
+> 5. Las definiciones de impacto aseguran que la magnitud del daño a una
+> parte se equipare con la magnitud del daño a otras.       
+>
+> 6. Las definiciones de impacto deben tener un límite explícito entre
+> aquellas magnitudes que serían aceptables para todas las partes y
+> aquellas que no lo serían.       
+>
+> 7. Dirección de definiciones de impacto; La misión o la utilidad de
+> la organización para explicar por qué la organización y otros
+> involucran riesgos, los objetivos egoístas de la organización y las
+> obligaciones de la organización de proteger a los demás del
+> daño.       
+>
+> 8. El análisis de riesgos se basa en un estándar de atención para
+> analizar los controles actuales y las garantías recomendadas.       
+>
+> 9\. El riesgo es analizado por expertos en la materia que usan evidencia
+> para evaluar riesgos y salvaguardas.       
+>
+> 10\. Las evaluaciones de riesgos no pueden evaluar todos los riesgos
+> previsibles. Las evaluaciones de riesgos vuelven a ocurrir para
+> identificar y abordar más riesgos con el tiempo.   
+
+Pasos para la evaluación de riesgos
+-----------------------------------
+
+Durante el Paso 1 (Definición del alcance y las sesiones de
+programación), la organización determinará qué activos de información
+incluir en su evaluación. También identificarán a los dueños de negocios
+y administradores técnicos que proporcionarán evidencia y entrevistas
+para evaluar esos activos. El evaluador de riesgos luego programará
+sesiones de entrevistas con esos propietarios y delegados.
+
+En el Paso 2 (Definición de criterios de evaluación de riesgos), la
+organización definirá las reglas mediante las cuales evaluarán y
+puntuarán los riesgos. Definirán su misión (el valor que aportan a los
+demás) y sus obligaciones (el potencial de daño contra los demás) para
+establecer lo que están tratando de proteger. Luego definirán los
+esquemas de puntuación que se utilizarán para el impacto y la estimación
+de probabilidad.
+
+En el Paso 3 (Definición de los criterios de aceptación de riesgos), la
+organización establecerá su tolerancia al riesgo seleccionando una
+combinación de la probabilidad de un impacto que sería tolerable para
+todas las partes (la organización y las partes que pueden verse
+perjudicadas por los riesgos realizados).
+
+En el Paso 4 (Evaluación de Riesgos - basado en el control) evaluador de
+riesgos evaluará los riesgos de los activos de información. Para las
+organizaciones de nivel 1, el análisis incluye las siguientes
+actividades:
+
+• "Recopilar evidencia" implica una revisión de documentos, como
+políticas, procedimientos, estándares y puntos de referencia. También
+incluye entrevistas con la gerencia y el personal. La recopilación de
+evidencia también implica la observación de configuraciones, artefactos,
+instalaciones, registros y procesos de trabajo para determinar si operan
+de manera segura o vulnerable.
+
+Las organizaciones de nivel 1 también deberían considerar revisar las
+configuraciones de los controles y buscar evidencia de su efectividad.
+Esto puede ser un desafío para las organizaciones a este nivel. Los
+escáneres de vulnerabilidades y los escáneres de configuración que
+utilizan políticas SCAP pueden proporcionar un análisis eficiente de los
+sistemas técnicos para ayudar en este análisis.
+
+• "Modelar las amenazas" implica la mayor variedad de enfoques que
+dependen de la madurez de ciberseguridad de la organización. Sin
+embargo, cada organización modelará los riesgos con al menos estos
+componentes: teniendo en cuenta los controles CIS que deberían existir
+para proteger los activos de información; determinar si esas
+salvaguardas están efectivamente establecidas para proteger los activos
+de información; identificar vulnerabilidades que pueden permitir
+violaciones de los activos; e identificar amenazas que podrían
+aprovechar esas vulnerabilidades.
+
+• Durante la "Evaluación de riesgos", la organización estimará la
+probabilidad y el impacto de los riesgos. Las estimaciones se basarán en
+la puntuación y los criterios establecidos en el Paso 2. La puntuación
+de riesgo se calculará automáticamente para determinar si las
+implementaciones actuales de los Controles CIS ya son razonables.
+
+Durante el Paso 5 (Proponer salvaguardas), la organización considerará
+cómo abordar los riesgos irrazonables seleccionando los Controles CIS
+que deben implementarse para abordar cada riesgo, y específicamente cómo
+se implementarán los controles. Estas salvaguardas pueden incluir
+dispositivos de seguridad, salvaguardas físicas, capacitación, procesos
+de supervisión u otros métodos. Luego, el evaluador de riesgos probará
+la razonabilidad de las salvaguardas durante "Evaluar las salvaguardas
+propuestas". El evaluador de riesgos evaluará las salvaguardas
+propuestas utilizando los mismos criterios que se usaron para evaluar
+los riesgos.
+
+Una plantilla de plan de proyecto está disponible en el documento
+complementario CIS\_RAM\_Workbook.
