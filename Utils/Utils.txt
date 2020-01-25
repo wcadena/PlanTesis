@@ -60,3 +60,58 @@ pasos a seguir para implementar el marco de seguridad
 
 *comparacion de pasos a seguir segun nist vs otros marcos
 https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf
+
+ejemplo de politicas de universidad de georgia
+https://security.gatech.edu/DataCategorization
+
+
+end of sale
+end of support
+end of live
+
+
+
+sas es mas barato
+
+plan de deteccion de riesgos
+DRP
+plan de continuidad 
+BSP
+
+MATRIZ DE CLASIFICACION
+financiero
+salud
+educacion 
+
+
+
+publico, privado y confidencial
+
+disign tinkint 
+conocer nencesidades de todas las demas areas q desean mejorar el valor 
+trasnformacion digital -> manual a automatico
+
+1.como implementamos
+2.como tenemos la evidencia
+3.como consideramos a autorizados y no autorizados
+	politica para ser admitido
+		marco de referencia(acorde al core de negocio) ayuda en frameworks.
+		CONTROL DE POSTURA
+		firewall
+		antivirus
+		sistema operativo update
+		
+		si esta ok es admitido
+		si no, va a cuarentena.
+			si no, va a red totalmente restringida INVITADOS				
+	autorizados
+	no autorizados
+
+4. generar evidencia de cumplimiento de politicas
+	
+5. aplicacion de politica y sofware 
+6 CIS CSAT: A Free Tool for Assessing Implementation of CIS Controls
+	para ver estado de seguridad
+	
+	 
+
